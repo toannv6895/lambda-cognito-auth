@@ -1,5 +1,8 @@
 package org.toannguyen;
 
+import io.quarkus.runtime.annotations.RegisterForReflection;
+
+@RegisterForReflection
 public class LoginResponse {
     private String username;
     private String accessToken;

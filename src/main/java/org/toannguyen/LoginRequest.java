@@ -1,5 +1,8 @@
 package org.toannguyen;
 
+import io.quarkus.runtime.annotations.RegisterForReflection;
+
+@RegisterForReflection
 public class LoginRequest {
     String username;
     String password;
